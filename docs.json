@@ -20,7 +20,14 @@
   },
   "navigation": {
     "directory": "card",
-    "groups": []
+    "groups": [
+      {
+        "group": "updates",
+        "pages": [
+          "untitled-page"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -39,5 +46,9 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }
