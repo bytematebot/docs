@@ -2,11 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
   "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "description": "ByteMate Docs",
   "colors": {
-    "primary": "#166E3F",
+    "primary": "#8C78FF",
     "light": "#8C78FF",
-    "dark": "#166E3F"
+    "dark": "#8C78FF"
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -31,7 +31,7 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/images/bytemate_logo.png"
   },
   "navbar": {
     "links": [],
