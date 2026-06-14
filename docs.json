@@ -20,11 +20,27 @@
   },
   "navigation": {
     "directory": "card",
-    "groups": [
+    "languages": [
       {
-        "group": "updates",
-        "pages": [
-          "untitled-page"
+        "language": "en",
+        "groups": [
+          {
+            "group": "updates",
+            "pages": [
+              "untitled-page"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pl",
+        "groups": [
+          {
+            "group": "aktualizacje",
+            "pages": [
+              "pl/untitled-page.mdx"
+            ]
+          }
         ]
       }
     ]
