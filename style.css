@@ -147,3 +147,11 @@ img.nav-logo {
   max-width: 220px;
   height: auto;
 }
+
+#content-area :is(p, li, td, blockquote) {
+  color: rgb(75 85 99) !important;
+}
+
+.dark #content-area :is(p, li, td, blockquote) {
+  color: rgb(161 161 170) !important;
+}
