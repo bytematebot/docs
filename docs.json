@@ -20,11 +20,28 @@
   },
   "navigation": {
     "directory": "card",
-    "groups": [
+    "languages": [
       {
-        "group": "updates",
-        "pages": [
-          "untitled-page"
+        "language": "pl",
+        "default": true,
+        "groups": [
+          {
+            "group": "updates",
+            "pages": [
+              "untitled-page"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "updates",
+            "pages": [
+              "en/untitled-page"
+            ]
+          }
         ]
       }
     ]
