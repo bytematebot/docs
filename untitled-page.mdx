@@ -56,6 +56,62 @@ Sam moduł pozwala jednym kliknięciem dodawać emotki z (miejmy nadzieję) stal
   ![Obraz](/images/obraz.png)
 </Frame>
 
+## Nowy moduł: Strona serwera
+
+Strona serwera to publiczna podstrona Twojego serwera, na której odwiedzający mogą podejrzeć rankingi członków bez konieczności logowania się i wchodzenia na panel. W ustawieniach modułu decydujesz, co dokładnie ma się na niej znaleźć: osobnymi przełącznikami włączysz lub wyłączysz ranking poziomów oraz ranking ekonomii, a opcja „Publiczne rankingi" pozwala wymusić logowanie przez Discord, jeśli wolisz, aby dane widzieli tylko zalogowani użytkownicy.
+
+Na dole sekcji znajduje się też publiczny link do strony, który możesz skopiować i udostępnić swoim członkom, na przykład wkleić go w opisie serwera lub na kanale ogłoszeń.
+
+<Frame>
+  ![Obraz](/images/obraz.png)
+</Frame>
+
+### Widok publiczny
+
+Tak prezentuje się strona z perspektywy odwiedzającego. Na górze widoczna jest nazwa serwera wraz z krótkim opisem, a pod nią zakładki pozwalające przełączać się między rankingiem poziomów a rankingiem ekonomii. Sama lista pokazuje miejsce w rankingu, awatar, nick, aktualny poziom oraz liczbę XP lub stan konta, dzięki czemu członkowie mogą szybko sprawdzić, jak wypadają na tle reszty społeczności.
+
+<Frame>
+  ![Obraz](/images/obraz-5.png)
+</Frame>
+
+## Nowy moduł: Formularze
+
+W konstruktorze komponentów pojawił się zupełnie nowy element: formularze. Możesz teraz dodać do kontenera przycisk, który po kliknięciu otworzy użytkownikowi formularz z pytaniami, a odpowiedzi trafią prosto do wyznaczonej administracji. Sprawdza się to świetnie w aplikacjach na staff, zgłoszeniach, rekrutacjach do klanu czy zwykłych ankietach, bo nie musisz już zlecać tego zewnętrznym botom ani Google Forms.
+
+<Frame>
+  ![Obraz](/images/obraz-6.png)
+</Frame>
+
+### Edytor formularza
+
+Po wejściu w edycję formularza możesz w wygodny sposób ułożyć jego zawartość. Do dyspozycji masz krótkie pole tekstowe, długie pole tekstowe, listę rozwijaną (select), pytanie jednokrotnego wyboru oraz pytanie wielokrotnego wyboru. Każde pole ma swoją etykietę, a kolejność da się dowolnie zmieniać, więc zbudujesz formularz idealnie dopasowany do tego, czego potrzebujesz od użytkownika.
+
+<Frame>
+  ![Obraz](/images/obraz-7.png)
+</Frame>
+
+### Widok użytkownika
+
+Tak prezentuje się formularz z perspektywy osoby, która klika przycisk na Discordzie. Otwiera się przejrzyste okienko z nagłówkiem oraz wszystkimi pytaniami w kolejności, jaką ustawiłeś w edytorze. Nad polami widoczne jest też ostrzeżenie informujące, gdzie trafi formularz, dzięki czemu użytkownik wie, komu udostępnia swoje odpowiedzi, i nie poda przez przypadek wrażliwych danych.
+
+<Frame>
+  <img
+    src="/images/obraz-8.png"
+    alt="Obraz"
+    title="Obraz"
+    className="mx-auto"
+    style={{ width:"69%" }}
+  />
+</Frame>
+
+### Widok administracji
+
+Po wysłaniu formularza przez użytkownika administracja otrzymuje czytelne podsumowanie na wyznaczonym kanale. Widać na nim wszystkie pytania wraz z udzielonymi odpowiedziami, awatar autora oraz jego nick i ID, więc od razu wiadomo, kto wysłał zgłoszenie i co dokładnie odpowiedział, bez potrzeby przeklikiwania się przez kolejne wiadomości.
+
+<Frame>
+  ![Obraz](/images/obraz-10.png)
+</Frame>
+
 ## Nowy wygląd panelu
 
 Panel został przeprojektowany tak, aby lepiej wykorzystywał miejsce na ekranie i wygodniej się po nim poruszało. Jest teraz szerszy i korzysta z większej przestrzeni monitora, a serwery przeniosły się na boczny pasek po lewej stronie. Nazwa wybranego modułu trafiła do paska nawigacji, dzięki czemu zawsze widać, w którym miejscu się jesteś.
